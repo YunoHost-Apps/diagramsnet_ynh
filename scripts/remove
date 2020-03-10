@@ -1,0 +1,51 @@
+#!/bin/bash
+
+#=================================================
+# GENERIC START
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
+source _common.sh
+source /usr/share/yunohost/helpers
+
+#=================================================
+# LOAD SETTINGS
+#=================================================
+ynh_script_progression --message="Loading installation settings..." --time --weight=1
+
+app=$YNH_APP_INSTANCE_NAME
+
+domain=$(ynh_app_setting_get --app=$app --key=domain)
+
+final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+
+#=================================================
+# REMOVE APP MAIN DIR
+#=================================================
+ynh_script_progression --message="Removing app main directory..." --time --weight=1
+
+# Remove the app directory securely
+ynh_secure_remove --file="$final_path"
+
+#=================================================
+# REMOVE NGINX CONFIGURATION
+#=================================================
+ynh_script_progression --message="Removing nginx web server configuration..." --time --weight=1
+
+# Remove the dedicated nginx config
+ynh_remove_nginx_config
+
+#=================================================
+# REMOVE FAIL2BAN CONFIGURATION
+#=================================================
+#ynh_script_progression --message="Removing fail2ban configuration..." --time --weight=1
+
+# Remove the dedicated fail2ban config
+#ynh_remove_fail2ban_config
+
+#=================================================
+# END OF SCRIPT
+#=================================================
+
+ynh_script_progression --message="Removal of $app completed" --time --last
