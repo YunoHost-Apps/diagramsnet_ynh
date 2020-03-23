@@ -24,7 +24,7 @@ ynh_abort_if_errors
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_script_progression --message="Loading installation settings..." --time --weight=1
+ynh_script_progression --message="Loading installation settings..." --weight=1
 
 app=$YNH_APP_INSTANCE_NAME
 
@@ -38,21 +38,21 @@ domain=$(ynh_app_setting_get --app=$app --key=domain)
 #=================================================
 # BACKUP THE APP MAIN DIR
 #=================================================
-ynh_script_progression --message="Backing up the main app directory..." --time --weight=1
+ynh_script_progression --message="Backing up the main app directory..." --weight=2
 
 ynh_backup --src_path="$final_path"
 
 #=================================================
 # BACKUP THE NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Backing up nginx web server configuration..." --time --weight=1
+ynh_script_progression --message="Backing up nginx web server configuration..." --weight=1
 
 ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
 #=================================================
 # BACKUP FAIL2BAN CONFIGURATION
 #=================================================
-ynh_script_progression --message="Backing up fail2ban configuration..." --time --weight=1
+ynh_script_progression --message="Backing up fail2ban configuration..." --weight=1
 
 ynh_backup --src_path="/etc/fail2ban/jail.d/$app.conf"
 ynh_backup --src_path="/etc/fail2ban/filter.d/$app.conf"
@@ -62,7 +62,7 @@ ynh_backup --src_path="/etc/fail2ban/filter.d/$app.conf"
 #=================================================
 # BACKUP LOGROTATE
 #=================================================
-ynh_script_progression --message="Backing up logrotate configuration..." --time --weight=1
+ynh_script_progression --message="Backing up logrotate configuration..." --weight=1
 
 ynh_backup --src_path="/etc/logrotate.d/$app"
 
@@ -70,4 +70,4 @@ ynh_backup --src_path="/etc/logrotate.d/$app"
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)." --time --last
+ynh_script_progression --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)." --last
