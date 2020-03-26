@@ -34,8 +34,6 @@ domain=$(ynh_app_setting_get --app=$app --key=domain)
 #=================================================
 # STANDARD BACKUP STEPS
 #=================================================
-
-#=================================================
 # BACKUP THE APP MAIN DIR
 #=================================================
 ynh_script_progression --message="Backing up the main app directory..." --time --weight=1
@@ -48,23 +46,6 @@ ynh_backup --src_path="$final_path"
 ynh_script_progression --message="Backing up nginx web server configuration..." --time --weight=1
 
 ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
-
-#=================================================
-# BACKUP FAIL2BAN CONFIGURATION
-#=================================================
-ynh_script_progression --message="Backing up fail2ban configuration..." --time --weight=1
-
-ynh_backup --src_path="/etc/fail2ban/jail.d/$app.conf"
-ynh_backup --src_path="/etc/fail2ban/filter.d/$app.conf"
-
-#=================================================
-# SPECIFIC BACKUP
-#=================================================
-# BACKUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Backing up logrotate configuration..." --time --weight=1
-
-ynh_backup --src_path="/etc/logrotate.d/$app"
 
 #=================================================
 # END OF SCRIPT
