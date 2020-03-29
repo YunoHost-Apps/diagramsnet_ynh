@@ -18,7 +18,7 @@ diagrams.net lets you create a wide range of diagrams, from simple tree and flow
 
 ## Demo
 
-* [Official demo](https://www.draw.io)
+* [Official demo](https://app.diagrams.net/)
 
 ## Documentation
 
