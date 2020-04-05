@@ -79,7 +79,7 @@ then
 	# Add "offline" parameter in index.html
 	# See https://desk.draw.io/support/solutions/articles/16000042546-what-url-parameters-are-supported-
 	#     and https://shelter.moe/@Neil/103928506546498078 [French]
-	sed_pattern='s/var params = window.location.search.slice(1).split('&');/&\n\t\t\tparams.push(\"offline=1\");/g'
+	sed_pattern="s/var params = window.location.search.slice(1).split('&');/&\n\t\t\tparams.push(\"offline=1\");/g"
 	sed -i "$sed_pattern" "$final_path/src/main/webapp/index.html"
 fi
 
