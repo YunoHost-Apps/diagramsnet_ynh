@@ -26,7 +26,7 @@ diagrams.net lets you create a wide range of diagrams, from simple tree and flow
 
 ## YunoHost specific features
 
-Later, it might be interresting to see how to integrate this app with NextCloud or DokuWiki
+* Disable third party website integration with Dropbox, Google, Trello, etc
 
 ### Supported architectures
 

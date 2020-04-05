@@ -2,6 +2,13 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## Unreleased
+
+## [12.9.3~ynh1] - YYYY-MM-DD
+
+### Changed
+- Disable third party website integration with Dropbox, Google, Trello, etc. [See this explanation in french](https://shelter.moe/@Neil/103928506546498078)
+
 ## [12.9.3~ynh1] - 2020-03-27
 
 ## Changed
