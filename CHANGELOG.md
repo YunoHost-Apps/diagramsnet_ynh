@@ -4,6 +4,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [13.2.5~ynh1] - 2020-07-03
+
+### Changed
+- upgrade source to upstream 13.2.5 <https://github.com/jgraph/drawio/releases/tag/v13.2.5>
+
 ## [12.9.7~ynh1] - 2020-04-05
 
 ### Added
