@@ -1,7 +1,7 @@
 # diagrams.net for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/diagramsnet.svg)](https://dash.yunohost.org/appci/app/diagramsnet) ![](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)  
-[![Install diagramsnet with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=diagramsnet)
+[![Install diagramsnet with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 
 > *This package allow you to install diagrams.net quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
@@ -10,7 +10,7 @@ If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to
 
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
-**Shipped version:** 13.2.5
+**Shipped version:** 14.1.1
 
 ## Screenshots
 
@@ -43,10 +43,10 @@ diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from s
 
 ## Links
 
-* Report a bug: <https://github.com/YunoHost-Apps/diagramsnet_ynh/issues>
-* App website: <https://drawio-app.com>
-* Upstream app repository: <https://github.com/jgraph/drawio>
-* YunoHost website: <https://yunohost.org>
+* Report a bug: https://github.com/YunoHost-Apps/diagramsnet_ynh/issues
+* App website: https://drawio-app.com>
+* Upstream app repository: https://github.com/jgraph/drawio
+* YunoHost website: https://yunohost.org>
 
 ---
 
