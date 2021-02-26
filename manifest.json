@@ -14,7 +14,7 @@
         "email": "gofannon@riseup.net"
     },
     "requirements": {
-        "yunohost": ">= 3.8.1"
+        "yunohost": ">= 4.1.2"
     },
     "multi_instance": true,
     "services": [
