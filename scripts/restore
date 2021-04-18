@@ -69,7 +69,7 @@ chown -R root: $final_path
 #=================================================
 # RELOAD NGINX AND PHP-FPM
 #=================================================
-ynh_script_progression --message="Reloading nginx web server .." --weight=2
+ynh_script_progression --message="Reloading NGINX web server .." --weight=2
 
 ynh_systemd_action --service_name=nginx --action=reload
 
