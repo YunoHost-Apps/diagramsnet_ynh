@@ -10,7 +10,7 @@ If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to
 
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
-**Shipped version:** 14.4.4
+**Shipped version:** 14.6.5
 
 ## Screenshots
 
@@ -30,8 +30,8 @@ diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from s
 
 ### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/diagramsnet%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/diagramsnet%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/diagramsnet/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/diagramsnet.svg)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/diagramsnet.svg)](https://ci-apps-arm.yunohost.org/ci/apps/diagramsnet/)
 
 ## Limitations
 
