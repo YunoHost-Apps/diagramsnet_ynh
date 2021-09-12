@@ -6,8 +6,15 @@
         "en": "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.",
         "fr": "Application en ligne qui permet de faire des schémas et du dessin vectoriel."
     },
-    "version": "14.6.5~ynh1",
+    "version": "14.9.7~ynh1",
     "url": "https://www.diagrams.net/",
+    "upstream": {
+        "license": "Apache-2.0",
+        "website": "https://www.diagrams.net/",
+        "demo": "https://app.diagrams.net/",
+        "admindoc": "https://www.diagrams.net/doc",
+        "code": "https://drawio-app.com"
+    },
     "license": "Apache-2.0",
     "maintainer": {
         "name": "Gofannon",
