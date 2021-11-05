@@ -29,7 +29,7 @@ Online diagram software for making flowcharts, process diagrams, org charts, UML
 
 ## YunoHost specific features
 
-* Disable third party website integration with Dropbox, Google, Trello, etc
+* Integration of third-party websites (Dropbox, Google, Trello, etc.) is disabled.
 
 ## Documentation and resources
 
