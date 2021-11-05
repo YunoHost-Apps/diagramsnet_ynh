@@ -1,3 +1,3 @@
 ## YunoHost specific features
 
-* Disable third party website integration with Dropbox, Google, Trello, etc
+* Integration of third-party websites (Dropbox, Google, Trello, etc.) is disabled.
