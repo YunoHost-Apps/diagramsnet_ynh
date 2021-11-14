@@ -3,8 +3,8 @@
     "id": "diagramsnet",
     "packaging_format": 1,
     "description": {
-        "en": "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.",
-        "fr": "Application en ligne qui permet de faire des schémas et du dessin vectoriel."
+        "en": "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams",
+        "fr": "Application en ligne qui permet de faire des schémas et du dessin vectoriel"
     },
     "version": "15.6.8~ynh1",
     "url": "https://www.diagrams.net/",
