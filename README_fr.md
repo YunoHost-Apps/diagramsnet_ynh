@@ -11,9 +11,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Application en ligne qui permet de faire des schémas et du dessin vectoriel.
+Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
-**Version incluse :** 15.6.8~ynh1
+**Version incluse :** 15.9.4~ynh1
 
 **Démo :** https://app.diagrams.net/
 

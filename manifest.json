@@ -3,10 +3,10 @@
     "id": "diagramsnet",
     "packaging_format": 1,
     "description": {
-        "en": "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.",
-        "fr": "Application en ligne qui permet de faire des schémas et du dessin vectoriel."
+        "en": "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams",
+        "fr": "Application en ligne qui permet de faire des schémas et du dessin vectoriel"
     },
-    "version": "15.6.8~ynh1",
+    "version": "15.9.4~ynh1",
     "url": "https://www.diagrams.net/",
     "upstream": {
         "license": "Apache-2.0",
@@ -21,7 +21,7 @@
         "email": "gofannon@riseup.net"
     },
     "requirements": {
-        "yunohost": ">= 4.2.0"
+        "yunohost": ">= 4.3.0"
     },
     "multi_instance": true,
     "services": [

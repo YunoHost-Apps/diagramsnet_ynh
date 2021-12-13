@@ -15,9 +15,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams
 
-**Shipped version:** 15.6.8~ynh1
+**Shipped version:** 15.9.4~ynh1
 
 **Demo:** https://app.diagrams.net/
 
