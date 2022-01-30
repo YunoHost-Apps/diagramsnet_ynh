@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams
 
-**Shipped version:** 15.9.4~ynh1
+**Shipped version:** 16.5.2~ynh1
 
 **Demo:** https://app.diagrams.net/
 
@@ -35,7 +35,7 @@ Online diagram software for making flowcharts, process diagrams, org charts, UML
 
 * Official app website: https://www.diagrams.net/
 * Official admin documentation: https://www.diagrams.net/doc
-* Upstream app code repository: https://drawio-app.com
+* Upstream app code repository: https://github.com/jgraph/drawio
 * YunoHost documentation for this app: https://yunohost.org/app_diagramsnet
 * Report a bug: https://github.com/YunoHost-Apps/diagramsnet_ynh/issues
 
