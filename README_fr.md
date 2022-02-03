@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
-**Version incluse :** 15.9.4~ynh1
+**Version incluse :** 16.5.3~ynh1
 
 **Démo :** https://app.diagrams.net/
 
@@ -31,7 +31,7 @@ Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 * Site officiel de l'app : https://www.diagrams.net/
 * Documentation officielle de l'admin : https://www.diagrams.net/doc
-* Dépôt de code officiel de l'app : https://drawio-app.com
+* Dépôt de code officiel de l'app : https://github.com/jgraph/drawio
 * Documentation YunoHost pour cette app : https://yunohost.org/app_diagramsnet
 * Signaler un bug : https://github.com/YunoHost-Apps/diagramsnet_ynh/issues
 
