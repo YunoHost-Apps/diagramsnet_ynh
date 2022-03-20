@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/jgraph/drawio/archive/v16.5.3.tar.gz
-SOURCE_SUM=2ed630bc4bc8cfda6eab075aa29c8bd6aa849967ce4f4658e334ccf4463fdb1b
+SOURCE_URL=https://github.com/jgraph/drawio/archive/v16.6.6.tar.gz
+SOURCE_SUM=196b2d39a188f57a5a178f8db3913b3e9e96e9ddf1efb13f780d4095efc6984e
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
