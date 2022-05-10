@@ -70,7 +70,7 @@ case $asset_url in
     src="app"
     ;;
   *)
-    src=""
+    src="app"
     ;;
 esac
 
