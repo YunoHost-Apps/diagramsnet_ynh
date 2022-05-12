@@ -65,9 +65,6 @@ echo "Handling asset at $asset_url"
 
 src="app"
 
-# If $src is not empty, let's process the asset
-if [ ! -z "$src" ]; then
-
 # Create the temporary directory
 tempdir="$(mktemp -d)"
 
@@ -96,12 +93,6 @@ SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
 EOT
 echo "... conf/$src.src updated"
-
-else
-echo "... asset ignored"
-fi
-
-done
 
 #=================================================
 # SPECIFIC UPDATE STEPS
