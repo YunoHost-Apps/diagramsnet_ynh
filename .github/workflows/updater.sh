@@ -65,43 +65,27 @@ echo "Handling asset at $asset_url"
 
 src="app"
 
-# If $src is not empty, let's process the asset
-if [ ! -z "$src" ]; then
-
 # Create the temporary directory
 tempdir="$(mktemp -d)"
 
 # Download sources and calculate checksum
-filename=${asset_url##*/}
+filename="temp.tar.gz"
 curl --silent -4 -L $asset_url -o "$tempdir/$filename"
 checksum=$(sha256sum "$tempdir/$filename" | head -c 64)
 
 # Delete temporary directory
 rm -rf $tempdir
 
-# Get extension
-if [[ $filename == *.tar.gz ]]; then
-  extension=tar.gz
-else
-  extension=${filename##*.}
-fi
-
 # Rewrite source file
 cat <<EOT > conf/$src.src
 SOURCE_URL=$asset_url
 SOURCE_SUM=$checksum
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=$extension
+SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
 EOT
 echo "... conf/$src.src updated"
-
-else
-echo "... asset ignored"
-fi
-
-done
 
 #=================================================
 # SPECIFIC UPDATE STEPS
