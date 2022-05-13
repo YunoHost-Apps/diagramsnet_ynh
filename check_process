@@ -11,7 +11,7 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
-		upgrade=1	from_commit=9e0c1be11dfe6485ab66f898494eff5bd6bac817
+		upgrade=1	from_commit=885714c04d928e26dd3555324b078fdafa24b7bb
 		backup_restore=1
 		multi_instance=1
 		change_url=1
@@ -19,7 +19,7 @@
 Email=
 Notification=none
 ;;; Upgrade options
-	; commit=9e0c1be11dfe6485ab66f898494eff5bd6bac817
-		name=Upgrade to version 14.4.0 (#13)
+	; commit=885714c04d928e26dd3555324b078fdafa24b7bb
+		name=Merge pull request #43 from YunoHost-Apps/testing
 		manifest_arg=domain=DOMAIN&path=PATH&is_public=1
 
