@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
-**Version incluse :** 18.0.8~ynh1
+**Version incluse :** 18.1.1~ynh1
 
 **Démo :** https://app.diagrams.net/
 
