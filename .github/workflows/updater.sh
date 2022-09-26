@@ -9,9 +9,6 @@
 # Since each app is different, maintainers can adapt its contents so as to perform
 # automatic actions when a new upstream release is detected.
 
-# Remove this exit command when you are ready to run this Action
-#exit 1
-
 #=================================================
 # FETCHING LATEST RELEASE AND ITS ASSETS
 #=================================================
@@ -21,35 +18,32 @@ current_version=$(cat manifest.json | jq -j '.version|split("~")[0]')
 repo=$(cat manifest.json | jq -j '.upstream.code|split("https://github.com/")[1]')
 # Some jq magic is needed, because the latest upstream release is not always the latest version (e.g. security patches for older versions)
 version=$(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '.[] | select( .prerelease != true ) | .tag_name' | sort -V | tail -1)
-#assets=($(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '[ .[] | select(.tag_name=="'$version'").assets[].browser_download_url ] | join(" ") | @sh' | tr -d "'"))
 asset_url=$(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '.[] | select(.tag_name=="'$version'").tarball_url')
 
 # Later down the script, we assume the version has only digits and dots
 # Sometimes the release name starts with a "v", so let's filter it out.
-# You may need more tweaks here if the upstream repository has different naming conventions. 
+# You may need more tweaks here if the upstream repository has different naming conventions.
 if [[ ${version:0:1} == "v" || ${version:0:1} == "V" ]]; then
-    version=${version:1}
+	version=${version:1}
 fi
 
 # Setting up the environment variables
 echo "Current version: $current_version"
 echo "Latest release from upstream: $version"
 echo "VERSION=$version" >> $GITHUB_ENV
+echo "REPO=$repo" >> $GITHUB_ENV
 # For the time being, let's assume the script will fail
 echo "PROCEED=false" >> $GITHUB_ENV
 
 # Proceed only if the retrieved version is greater than the current one
 if ! dpkg --compare-versions "$current_version" "lt" "$version" ; then
-    echo "::warning ::No new version available"
-    exit 0
+	echo "::warning ::No new version available"
+	exit 0
 # Proceed only if a PR for this new version does not already exist
 elif git ls-remote -q --exit-code --heads https://github.com/$GITHUB_REPOSITORY.git ci-auto-update-v$version ; then
-    echo "::warning ::A branch already exists for this update"
-    exit 0
+	echo "::warning ::A branch already exists for this update"
+	exit 0
 fi
-
-# Each release can hold multiple assets (e.g. binaries for different architectures, source code, etc.)
-#echo "${#assets[@]} available asset(s)"
 
 #=================================================
 # UPDATE SOURCE FILES
@@ -57,9 +51,6 @@ fi
 
 # Here we use the $assets variable to get the resources published in the upstream release.
 # Here is an example for Grav, it has to be adapted in accordance with how the upstream releases look like.
-
-# Let's loop over the array of assets URLs
-#for asset_url in ${assets[@]}; do
 
 echo "Handling asset at $asset_url"
 
@@ -84,6 +75,7 @@ SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
+SOURCE_EXTRACT=true
 EOT
 echo "... conf/$src.src updated"
 
