@@ -6,7 +6,7 @@
         "en": "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams",
         "fr": "Application en ligne qui permet de faire des schémas et du dessin vectoriel"
     },
-    "version": "20.2.8~ynh1",
+    "version": "20.3.7~ynh1",
     "url": "https://www.diagrams.net/",
     "upstream": {
         "license": "Apache-2.0",
