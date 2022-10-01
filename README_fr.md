@@ -17,6 +17,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
+
 **Version incluse :** 20.2.8~ynh1
 
 
@@ -28,9 +29,9 @@ Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 ## Avertissements / informations importantes
 
-## YunoHost specific features
+## Caractéristiques spécifiques de YunoHost
 
-* Integration of third-party websites (Dropbox, Google, Trello, etc.) is disabled.
+* L'intégration de sites web tiers (Dropbox, Google, Trello, etc.) est désactivée.
 
 ## Documentations et ressources
 
