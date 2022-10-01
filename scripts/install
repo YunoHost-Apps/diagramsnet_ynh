@@ -14,7 +14,6 @@ source /usr/share/yunohost/helpers
 #=================================================
 
 ynh_clean_setup () {
-	### Remove this function if there's nothing to clean before calling the remove script.
 	true
 }
 # Exit if an error occurs during the execution of the script
@@ -50,6 +49,8 @@ ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=path --value=$path_url
 
 #=================================================
+# STANDARD MODIFICATIONS
+#=================================================
 # CREATE DEDICATED USER
 #=================================================
 ynh_script_progression --message="Configuring system user..." --weight=1
@@ -63,7 +64,13 @@ ynh_system_user_create --username=$app --home_dir="$final_path"
 ynh_script_progression --message="Setting up source files..." --weight=2
 
 ynh_app_setting_set --app=$app --key=final_path --value=$final_path
+# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$final_path"
+
+# Add "offline" parameter in index.html
+# See https://desk.draw.io/support/solutions/articles/16000042546-what-url-parameters-are-supported-
+sed_pattern="s/var params = window.location.search.slice(1).split('&');/&\n\t\t\tparams.push(\"offline=1\");/g"
+sed -i "$sed_pattern" "$final_path/src/main/webapp/index.html"
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
@@ -74,18 +81,11 @@ chown -R $app:www-data "$final_path"
 #=================================================
 ynh_script_progression --message="Configuring NGINX web server..." --weight=15
 
-# Create a dedicated nginx config
+# Create a dedicated NGINX config
 ynh_add_nginx_config
 
 #=================================================
-# REMOVE CALLS TO THIRD PARTY WEBSITES
-#=================================================
-
-# Add "offline" parameter in index.html
-# See https://desk.draw.io/support/solutions/articles/16000042546-what-url-parameters-are-supported-
-sed_pattern="s/var params = window.location.search.slice(1).split('&');/&\n\t\t\tparams.push(\"offline=1\");/g"
-sed -i "$sed_pattern" "$final_path/src/main/webapp/index.html"
-
+# GENERIC FINALIZATION
 #=================================================
 # SETUP SSOWAT
 #=================================================
@@ -94,6 +94,8 @@ ynh_script_progression --message="Configuring permissions..." --weight=3
 # Make app public if necessary
 if [ $is_public -eq 1 ]
 then
+	# Everyone can access the app.
+	# The "main" permission is automatically created before the install script.
 	ynh_permission_update --permission="main" --add="visitors"
 fi
 
