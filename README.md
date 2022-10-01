@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams
+diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 **Shipped version:** 20.4.0~ynh1 *(:warning: This is the `ci-auto-update-v20.4.0` branch. The [`master` branch](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/master) used in the catalog is currently on version 20.2.6\~ynh1.)*
 

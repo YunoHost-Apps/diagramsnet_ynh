@@ -19,7 +19,6 @@ Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 **Version incluse :** 20.4.0~ynh1 *(:warning: Il s'agit de la branche `ci-auto-update-v20.4.0`. La [branche `master`](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/master) utilisée dans le catalogue est actuellement en 20.2.6\~ynh1.)*
 
-
 **Démo :** https://app.diagrams.net/
 
 ## Captures d'écran
@@ -28,9 +27,9 @@ Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 ## Avertissements / informations importantes
 
-## YunoHost specific features
+## Caractéristiques spécifiques de YunoHost
 
-* Integration of third-party websites (Dropbox, Google, Trello, etc.) is disabled.
+* L'intégration de sites web tiers (Dropbox, Google, Trello, etc.) est désactivée.
 
 ## Documentations et ressources
 
