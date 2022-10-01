@@ -17,7 +17,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
-**Version incluse :** 20.4.0~ynh1 *(:warning: Il s'agit de la branche `ci-auto-update-v20.4.0`. La [branche `master`](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/master) utilisée dans le catalogue est actuellement en 20.2.6\~ynh1.)*
+
+**Version incluse :** 20.4.0~ynh1 *(:warning: Il s'agit de la branche `testing`. La [branche `master`](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/master) utilisée dans le catalogue est actuellement en 20.2.6\~ynh1.)*
+
 
 **Démo :** https://app.diagrams.net/
 
