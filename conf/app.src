@@ -1,5 +1,5 @@
-SOURCE_URL=https://api.github.com/repos/jgraph/drawio/tarball/v20.7.2
-SOURCE_SUM=3f97c0a6d3466491436281f0c45eee93d07dea5d2f7d9c49a9a2aaccca81551e
+SOURCE_URL=https://api.github.com/repos/jgraph/drawio/tarball/v20.8.3
+SOURCE_SUM=3c318a923cf16a77967cd9bfc0fab2bed63b864c46bb4f96ece38500693648a9
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
