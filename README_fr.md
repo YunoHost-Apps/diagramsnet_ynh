@@ -5,26 +5,26 @@ It shall NOT be edited by hand.
 
 # Diagrams.net pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/diagramsnet.svg)](https://dash.yunohost.org/appci/app/diagramsnet) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/diagramsnet.svg)](https://dash.yunohost.org/appci/app/diagramsnet) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
 [![Installer Diagrams.net avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Diagrams.net rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Diagrams.net rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 
-**Version incluse :** 20.8.3~ynh1
+**Version incluse :** 20.8.14~ynh1
 
 **Démo :** https://app.diagrams.net/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Diagrams.net](./doc/screenshots/screenshot.png)
+![Capture d’écran de Diagrams.net](./doc/screenshots/screenshot.png)
 
 ## Avertissements / informations importantes
 
@@ -34,9 +34,9 @@ Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://www.diagrams.net/>
-* Documentation officielle de l'admin : <https://www.diagrams.net/doc>
-* Dépôt de code officiel de l'app : <https://github.com/jgraph/drawio>
+* Site officiel de l’app : <https://www.diagrams.net/>
+* Documentation officielle de l’admin : <https://www.diagrams.net/doc>
+* Dépôt de code officiel de l’app : <https://github.com/jgraph/drawio>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_diagramsnet>
 * Signaler un bug : <https://github.com/YunoHost-Apps/diagramsnet_ynh/issues>
 
@@ -52,4 +52,4 @@ ou
 sudo yunohost app upgrade diagramsnet -u https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
