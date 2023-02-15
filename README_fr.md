@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Diagrams.net pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/diagramsnet.svg)](https://dash.yunohost.org/appci/app/diagramsnet) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
+
 [![Installer Diagrams.net avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 
 *[Read this readme in english.](./README.md)*
@@ -18,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 
-**Version incluse :** 20.8.18~ynh1
+**Version incluse :** 20.8.20~ynh1
 
 **Démo :** https://app.diagrams.net/
 
