@@ -42,7 +42,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/jgraph/drawio/archive/refs/tags/v21.5.0.tar.gz"
         sha256 = "8d791211d7751c1b0dc013dcedd8cb9240f6299cf4c693cef8a497b08ae12f12"
-
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
