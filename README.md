@@ -19,19 +19,13 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**Shipped version:** 21.0.7~ynh1
+**Shipped version:** 21.5.0~ynh1
 
 **Demo:** https://app.diagrams.net/
 
 ## Screenshots
 
 ![Screenshot of Diagrams.net](./doc/screenshots/screenshot.png)
-
-## Disclaimers / important information
-
-## YunoHost specific features
-
-* Integration of third-party websites (Dropbox, Google, Trello, etc.) is disabled.
 
 ## Documentation and resources
 
