@@ -1,0 +1,52 @@
+packaging_format = 2
+
+id = "diagramsnet"
+name = "Diagrams.net"
+description.en = "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams"
+description.fr = "Application en ligne qui permet de faire des schémas et du dessin vectoriel"
+
+version = "21.5.0~ynh1"
+
+maintainers = ["Gofannon"]
+
+[upstream]
+license = "Apache-2.0"
+website = "https://www.diagrams.net/"
+demo = "https://app.diagrams.net/"
+admindoc = "https://www.diagrams.net/doc"
+code = "https://github.com/jgraph/drawio"
+
+[integration]
+yunohost = ">= 11.1.21"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/diagram"
+
+    [install.init_main_permission]
+    type = "group"
+    default = false
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/jgraph/drawio/archive/refs/tags/v21.5.0.tar.gz"
+        sha256 = "8d791211d7751c1b0dc013dcedd8cb9240f6299cf4c693cef8a497b08ae12f12"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
