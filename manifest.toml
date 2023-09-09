@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "diagramsnet"
 name = "Diagrams.net"
-description.en = "Online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams"
-description.fr = "Application en ligne qui permet de faire des schémas et du dessin vectoriel"
+description.en = "Diagram software for making flowcharts, process diagrams, org charts"
+description.fr = "Application qui permet de faire des schémas et du dessin vectoriel"
 
 version = "21.7.4~ynh1"
 
@@ -17,7 +17,7 @@ admindoc = "https://www.diagrams.net/doc"
 code = "https://github.com/jgraph/drawio"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
