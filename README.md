@@ -29,11 +29,11 @@ diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from s
 
 ## Documentation and resources
 
-* Official app website: <https://www.diagrams.net/>
-* Official admin documentation: <https://www.diagrams.net/doc>
-* Upstream app code repository: <https://github.com/jgraph/drawio>
-* YunoHost Store: <https://apps.yunohost.org/app/diagramsnet>
-* Report a bug: <https://github.com/YunoHost-Apps/diagramsnet_ynh/issues>
+- Official app website: <https://www.diagrams.net/>
+- Official admin documentation: <https://www.diagrams.net/doc>
+- Upstream app code repository: <https://github.com/jgraph/drawio>
+- YunoHost Store: <https://apps.yunohost.org/app/diagramsnet>
+- Report a bug: <https://github.com/YunoHost-Apps/diagramsnet_ynh/issues>
 
 ## Developer info
 
