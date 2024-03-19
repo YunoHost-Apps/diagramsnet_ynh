@@ -18,10 +18,9 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
+**Version incluse :** 24.0.7~ynh1
 
-**Version incluse :** 24.0.2~ynh1
-
-**Démo :** https://app.diagrams.net/
+**Démo :** <https://app.diagrams.net/>
 
 ## Captures d’écran
 
@@ -41,7 +40,7 @@ Merci de faire vos pull request sur la [branche testing](https://github.com/Yuno
 
 Pour essayer la branche testing, procédez comme suit.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing --debug
 ou
 sudo yunohost app upgrade diagramsnet -u https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing --debug
