@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Diagrams.net with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 
-*[Lire ce readme en français.](./README_fr.md)*
+*[Read this README is other languages.](./ALL_README.md)*
 
 > *This package allows you to install Diagrams.net quickly and simply on a YunoHost server.
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
-**Shipped version:** 24.0.7~ynh1
+**Shipped version:** 24.1.0~ynh1
 
 **Demo:** <https://app.diagrams.net/>
 
@@ -36,7 +36,8 @@ diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from s
 
 ## Developer info
 
-Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing).
+Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing),
+
 
 To try the testing branch, please proceed like that.
 
