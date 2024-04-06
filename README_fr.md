@@ -18,9 +18,10 @@ Il NE doit PAS être modifié à la main.
 
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
-**Version incluse :** 24.0.7~ynh1
 
-**Démo :** <https://app.diagrams.net/>
+**Version incluse :** 24.0.7~ynh1
+
+**Démo :** <https://app.diagrams.net/>
 
 ## Captures d’écran
 
