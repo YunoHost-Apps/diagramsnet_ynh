@@ -39,8 +39,7 @@ ram.runtime = "50M"
 
     [install.init_main_permission]
     type = "group"
-    default = false
-
+    default = "visitors"
 [resources]
         [resources.sources.main]
         url = "https://github.com/jgraph/drawio/archive/refs/tags/v24.3.1.tar.gz"
