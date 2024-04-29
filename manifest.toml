@@ -5,7 +5,7 @@ name = "Diagrams.net"
 description.en = "Diagram software for making flowcharts, process diagrams, org charts"
 description.fr = "Application qui permet de faire des schémas et du dessin vectoriel"
 
-version = "24.3.1~ynh1"
+version = "24.3.1~ynh2"
 
 maintainers = ["Gofannon"]
 
@@ -39,8 +39,7 @@ ram.runtime = "50M"
 
     [install.init_main_permission]
     type = "group"
-    default = false
-
+    default = "visitors"
 [resources]
         [resources.sources.main]
         url = "https://github.com/jgraph/drawio/archive/refs/tags/v24.3.1.tar.gz"
