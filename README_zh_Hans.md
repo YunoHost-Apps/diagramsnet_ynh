@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Diagrams.net
+# YunoHost 上的 Diagrams.net
 
 [![集成程度](https://dash.yunohost.org/integration/diagramsnet.svg)](https://dash.yunohost.org/appci/app/diagramsnet) ![工作状态](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
 
@@ -19,7 +19,7 @@
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**分发版本：** 24.3.1~ynh2
+**分发版本：** 24.4.0~ynh1
 
 **演示：** <https://app.diagrams.net/>
 
