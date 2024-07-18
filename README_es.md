@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Diagrams.net para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/diagramsnet.svg)](https://dash.yunohost.org/appci/app/diagramsnet) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/diagramsnet.svg)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
 
 [![Instalar Diagrams.net con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 
@@ -19,7 +19,7 @@ No se debe editar a mano.
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**Versión actual:** 24.6.2~ynh1
+**Versión actual:** 24.7.1~ynh1
 
 **Demo:** <https://app.diagrams.net/>
 
