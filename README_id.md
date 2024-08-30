@@ -19,7 +19,7 @@ Ini TIDAK boleh diedit dengan tangan.
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**Versi terkirim:** 24.7.5~ynh1
+**Versi terkirim:** 24.7.8~ynh1
 
 **Demo:** <https://app.diagrams.net/>
 
@@ -31,7 +31,7 @@ diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from s
 
 - Website aplikasi resmi: <https://www.diagrams.net/>
 - Dokumentasi admin resmi: <https://www.diagrams.net/doc>
-- Repositori kode aplikasi hulu: <https://github.com/jgraph/drawio>
+- Depot kode aplikasi hulu: <https://github.com/jgraph/drawio>
 - Gudang YunoHost: <https://apps.yunohost.org/app/diagramsnet>
 - Laporkan bug: <https://github.com/YunoHost-Apps/diagramsnet_ynh/issues>
 
