@@ -8,7 +8,6 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
 # Add "offline" parameter in index.html
@@ -16,14 +15,11 @@ ynh_setup_source --dest_dir="$install_dir"
 sed_pattern="s/var params = window.location.search.slice(1).split('&');/&\n\t\t\tparams.push(\"offline=1\");/g"
 sed -i "$sed_pattern" "$install_dir/src/main/webapp/index.html"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod -R o-rwx "$install_dir"
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
 ynh_script_progression "Configuring NGINX web server..."
 
-# Create a dedicated NGINX config
 ynh_config_add_nginx
 
 #=================================================
