@@ -1,40 +1,29 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Upgrading source files..." --weight=24
+ynh_script_progression "Upgrading source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir" --full_replace=1
+ynh_setup_source --dest_dir="$install_dir" --full_replace
 
 # Add "offline" parameter in index.html
 # See https://desk.draw.io/support/solutions/articles/16000042546-what-url-parameters-are-supported-
 sed_pattern="s/var params = window.location.search.slice(1).split('&');/&\n\t\t\tparams.push(\"offline=1\");/g"
 sed -i "$sed_pattern" "$install_dir/src/main/webapp/index.html"
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Upgrading NGINX web server configuration..." --weight=17
+ynh_script_progression "Upgrading NGINX web server configuration..."
 
-# Create a dedicated NGINX config
-ynh_add_nginx_config
+ynh_config_add_nginx
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Upgrade of $app completed" --last
+ynh_script_progression "Upgrade of $app completed"
