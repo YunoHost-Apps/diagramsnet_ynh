@@ -19,7 +19,7 @@ No se debe editar a mano.
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**Versión actual:** 24.7.8~ynh2
+**Versión actual:** 24.7.17~ynh1
 
 **Demo:** <https://app.diagrams.net/>
 
@@ -37,7 +37,7 @@ diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from s
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
