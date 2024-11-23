@@ -5,7 +5,9 @@
 
 # Diagrams.net для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/diagramsnet.svg)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/diagramsnet)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
+![Состояние работы](https://apps.yunohost.org/badge/state/diagramsnet)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/diagramsnet)
 
 [![Установите Diagrams.net с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 

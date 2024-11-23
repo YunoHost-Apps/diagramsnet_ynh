@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Diagrams.net para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/diagramsnet.svg)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/diagramsnet)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
+![Estado funcional](https://apps.yunohost.org/badge/state/diagramsnet)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/diagramsnet)
 
 [![Instalar Diagrams.net con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 

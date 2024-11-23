@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Diagrams.net voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/diagramsnet.svg)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/diagramsnet.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/diagramsnet.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/diagramsnet)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/diagramsnet)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/diagramsnet)
 
 [![Diagrams.net met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=diagramsnet)
 
