@@ -21,7 +21,7 @@
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**Поставляемая версия:** 25.0.2~ynh1
+**Поставляемая версия:** 26.0.2~ynh1
 
 **Демо-версия:** <https://app.diagrams.net/>
 
