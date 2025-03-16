@@ -21,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Application en ligne qui permet de faire des schémas et du dessin vectoriel
 
 
-**Version incluse :** 26.1.0~ynh1
+**Version incluse :** 26.1.1~ynh1
 
 **Démo :** <https://app.diagrams.net/>
 
