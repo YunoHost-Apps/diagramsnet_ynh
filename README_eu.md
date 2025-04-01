@@ -21,7 +21,7 @@ EZ editatu eskuz.
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**Paketatutako bertsioa:** 26.1.1~ynh1
+**Paketatutako bertsioa:** 26.2.2~ynh1
 
 **Demoa:** <https://app.diagrams.net/>
 
@@ -41,7 +41,7 @@ diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from s
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/diagramsnet_ynh/tree/testing --debug
