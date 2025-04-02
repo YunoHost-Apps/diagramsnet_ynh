@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Diagrams.net para Yunohost
+# Diagrams.net para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/diagramsnet)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/diagramsnet)
@@ -21,7 +21,7 @@ No se debe editar a mano.
 diagrams.net (formerly draw.io) lets you create a wide range of diagrams, from simple tree and flow diagrams, to highly technical network, rack and electrical diagrams.
 
 
-**Versión actual:** 26.1.1~ynh1
+**Versión actual:** 26.2.2~ynh1
 
 **Demo:** <https://app.diagrams.net/>
 
