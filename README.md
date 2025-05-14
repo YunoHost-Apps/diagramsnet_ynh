@@ -12,7 +12,7 @@ Diagram software for making flowcharts, process diagrams, org charts
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.diagrams.net/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://app.diagrams.net/)
-[![Version: 27.0.2~ynh1](https://img.shields.io/badge/Version-27.0.2~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
+[![Version: 27.0.5~ynh1](https://img.shields.io/badge/Version-27.0.5~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/diagramsnet/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/diagramsnet"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
