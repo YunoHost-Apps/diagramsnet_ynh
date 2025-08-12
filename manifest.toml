@@ -7,7 +7,7 @@ description.fr = "Application qui permet de faire des schémas et du dessin vect
 
 version = "28.0.9~ynh1"
 
-maintainers = ["Gofannon"]
+maintainers = [ ]
 
 [upstream]
 license = "Apache-2.0"
@@ -17,13 +17,12 @@ admindoc = "https://www.diagrams.net/doc"
 code = "https://github.com/jgraph/drawio"
 
 [integration]
-yunohost = ">= 11.2.29"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
