@@ -5,7 +5,7 @@ name = "Diagrams.net"
 description.en = "Diagram software for making flowcharts, process diagrams, org charts"
 description.fr = "Application qui permet de faire des schémas et du dessin vectoriel"
 
-version = "29.6.7~ynh1"
+version = "29.6.10~ynh1"
 
 maintainers = [ ]
 
@@ -42,8 +42,8 @@ ram.runtime = "50M"
     default = "visitors"
 [resources]
         [resources.sources.main]
-        url = "https://github.com/jgraph/drawio/archive/refs/tags/v29.6.7.tar.gz"
-        sha256 = "38a1d4ea759fd5fe467970d636d7491fe77796cac0bf2531a52f8469cc3c0323"
+        url = "https://github.com/jgraph/drawio/archive/refs/tags/v29.6.10.tar.gz"
+        sha256 = "75f43c501d35fd821f7a9e73dc0cf727df764a70c4d50218c2ea3b5cae14df7f"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
