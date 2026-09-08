@@ -43,7 +43,7 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         url = "https://github.com/jgraph/drawio/archive/refs/tags/v31.4.4.tar.gz"
-        sha256 = "74ca1d1be930e406b202900e4a6206f87e710946ffb5534914018dfda997f362"
+        sha256 = "ed1a2400c4707705ffa3c7478376da9e64bbad8218a7c30f7ca2e0daa6b37707"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
